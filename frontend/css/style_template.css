@@ -1,0 +1,90 @@
+
+.back_link{
+	text-decoration: none;
+	color: #9D255C;
+}
+.btn{
+	text-align: left !important;
+}
+#btn-show{
+	display: none;
+}
+
+#btn-hide{
+	margin: 10px;
+}
+
+.btn-action{
+	margin: 5px;
+}
+
+.footer{
+	text-align: center;
+	background: #2C3E50;
+	color: #FFFFFF;
+	height: 50px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+
+#login_body{
+	background-image: url("../img/bg.jpg");	
+}
+#login_container{
+	background: #ffffff;
+	border-radius: 5px;
+	margin-top: 100px;
+	padding: 10px 10px 20px 10px;
+}
+#header_login{
+	text-align: center;
+}
+
+
+#logo{
+	width: 50px;
+	height: 70px;
+	float: center;
+}
+
+#top_menu{
+	text-align: center;
+	background: #ffffff;
+	color: #ffffff;
+	padding: 10px;
+}
+.top_lateral_menu{
+	background: #ffffff;
+}
+.lateral_menu{
+	padding: 10px;
+	height: auto;
+	background: #ffffff;
+	position: relative;
+}
+
+
+#container_content{
+	padding: 15px;
+	min-height: 90vh;
+	background: #F6F6F6;
+	overflow-y: scroll;
+}
+
+.page-header{
+	width: 100%;
+	padding: 10px;
+	box-shadow: 0px 0px 15px #dddddd;
+	float: left;
+	margin-bottom: 10px;
+	background: #ffffff;
+}
+
+.page-body{
+	margin-top: 20px;
+	padding: 10px;
+}
+.graphicContainer{
+	margin-bottom: 10px;
+}

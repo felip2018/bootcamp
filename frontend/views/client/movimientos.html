@@ -1,0 +1,50 @@
+<div class="row">
+	<div class="col-12">
+		<div class="page-header">
+			<div class="row">
+				<div class="col-11">
+					<p class="titleSystem">Movimientos</p>
+					<p>
+						Gestione sus ingresos y egresos
+					</p>		
+				</div>
+				<div class="col-1">
+					<!--<button class="btn btn-info float-right">
+						<i class="fa fa-info"></i>
+					</button>-->
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-12">
+		<div class="row">
+			<div class="col-12">
+				<button class="btn btn-primary" onclick="formularioMovimiento()">
+					<span class="fa fa-user-plus"></span> Nuevo
+				</button>
+			</div>
+		</div>
+		<div class="page-body">
+			<strong>Movimientos financieros</strong>
+			<table class="table table-striped">			
+				<thead class="thead-dark">
+					<tr>
+						<th>No.</th>
+						<th>Tipo</th>
+						<th>Nombre</th>
+						<th>Valor</th>
+						<th>Constante</th>
+						<th>Concepto</th>
+						<th>Fecha Movimiento</th>
+					</tr>
+				</thead>
+				<tbody id="listadoMovimientos">
+					
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	cargarMovimientos()
+</script>

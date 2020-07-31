@@ -1,0 +1,157 @@
+.headerTopMenu{
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	background: #ffffff;
+}
+.headerTop{
+	padding: 5px;
+	text-align: center;
+}
+.titleSystem{
+	font-family: 'Mulish', sans-serif;
+	font-size: 25pt;
+}
+.titleFirst{
+	color: #2980b9;
+}
+.titleSecond{
+	color: #27ae60;
+}
+
+.nav-link{
+	font-weight: bold;
+}
+
+.fa-user-circle{
+	font-size: 18pt;
+}
+
+.d-block{
+	height: 600px;
+}
+
+.carousel-caption{
+	background: rgba(0,0,0,0.5);
+}
+
+.seccion{
+	padding: 150px 10px 5px 10px;
+}
+
+.text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18pt;
+}
+
+/*---------- Nosotros-----------*/
+
+.aboutUsDescription{
+	background: #3498db;
+	color: #ffffff;
+	padding: 20px;
+}
+.aboutUsDescriptionImage{
+	background-image: url("../img/nosotros_2.jpg");
+	background-size: 100% 100%;
+}
+
+/*------------------------------*/
+
+/*------------ Nuestros Servicios ---------*/
+.ourServices{
+	padding: 20px;
+}
+.ourServices img{
+	width: 100%;
+}
+.titleService{
+	font-family: 'Mulish', sans-serif;
+	font-size: 18pt;
+}
+.textService{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15pt;
+}
+.ourServicesDescription{
+	padding-top: 50px;
+}
+.ourServicesStatics{
+	background: #d35400;
+	padding: 100px 50px 100px 50px;
+}
+.statDescription{
+	text-align: center;
+	color: #ffffff;
+}
+.statDescription span,b{
+	font-size: 25pt;
+}
+/*-----------------------------------------*/
+
+/*-------------------Nuestro Equipo------------*/
+.ourTeam{
+
+}
+.teamMember{
+	padding: 10px;
+}
+.card{
+	width: 100%;
+	text-align: center;
+}
+.card-img-top{
+	margin: auto;
+	width: 150px;
+	height: 150px;
+}
+/*---------------------------------------------*/
+
+/*--------------- Galeria----------*/
+.galery{
+
+}
+.galeryImage{
+	padding: 10px;
+}
+.galeryImage img{
+	width: 100%;
+}
+/*---------------------------------*/
+/*--------------- Contactenos -----------------*/
+.contactUs{
+	padding: 50px;
+}
+.contactUs img{
+	width: 100%;
+}
+.contactUsForm{
+	background: #3498db;
+	color: #ffffff;
+	padding: 50px;
+}
+.contactUsMap{
+	padding-top: 50px;
+}
+/*---------------------------------------------*/
+
+
+
+/*------------------ Login ----------------------*/
+
+#login_body{
+	background-image: url("../img/login.jpg");
+	background-size: 100% 100%;
+	height: 100vh;
+}
+#header_login{
+	text-align: center;
+}
+#login_container{
+	border:1px solid #CCCCCC;
+	box-shadow: 0px 10px 10px #CCCCCC;
+	background: #ffffff;
+	height: 100vh;
+	padding-top: 150px;
+}
+/*----------------------------------------------*/

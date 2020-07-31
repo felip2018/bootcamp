@@ -1,0 +1,40 @@
+{
+   "admin":{
+      "options":[
+         {
+            "view":"usuarios",
+            "label":"Usuarios",
+            "icon": "fa fa-user"
+         },
+         {
+            "view":"tips",
+            "label":"Recomendaciones",
+            "icon": "fa fa-thumbtack"
+         }
+      ]
+   },
+   "client":{
+      "options":[
+         {
+            "view":"movimientos",
+            "label":"Movimientos",
+            "icon": "fa fa-dollar-sign"
+         },
+         {
+            "view":"metas",
+            "label":"Metas",
+            "icon": "fa fa-bullseye"
+         },
+         {
+            "view":"simulador",
+            "label":"Simulador",
+            "icon": "fa fa-spinner"
+         },
+         {
+            "view":"reportes",
+            "label":"Reportes",
+            "icon": "fa fa-chart-pie"
+         }
+      ]
+   }
+}
