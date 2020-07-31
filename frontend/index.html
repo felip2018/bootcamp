@@ -267,6 +267,8 @@
 						    <textarea class="form-control" id="mensaje" placeholder="Mensaje" rows="5" required="true"></textarea>
 						</div>
 					</div>
+					<div class="col-12 alerta">
+					</div>
 					<div class="col-12">
 						<button type="button" class="btn btn-secondary btn-block" onclick="enviarMensaje()">Enviar</button>
 					</div>
@@ -282,9 +284,30 @@
 		</div>
 	</div>
 
+	<div class="modal" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary">Save changes</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
 	<script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
 
+	<script type="text/javascript" src="./js/variables.js"></script>	
 	<script type="text/javascript" src="./js/contactForm.js"></script>	
 </body>
 </html>

@@ -72,7 +72,7 @@ jQuery(".btn-login").click(function () {
 		jQuery('#myModal').modal('show')
 		jQuery(".modal-title").html('Advertencia!');
 		jQuery(".modal-body").html('<div class="alert alert-warning"><p>Ingrese el usuario para iniciar sesión.</p></div>');
-		jQuery(".modal-footer").html('<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button><button type="button" class="btn btn-primary">Registrarse</button>');
+		jQuery(".modal-footer").html('<button type="button" class="btn btn-secondary" data-dismiss="modal">Aceptar</button>');
 	}
 
 })
